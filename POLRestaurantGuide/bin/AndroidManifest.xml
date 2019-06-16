@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.polrestaurantguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-permission android:name="com.example.polrestaurantguide.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSRVICES" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+	
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme"
+        android:screenOrientation="portrait" >
+        <meta-data android:name="com.google.android.gms.version"
+             android:value="@integer/google_play_services_version"/>
+        <meta-data
+    		android:name="com.google.android.maps.v2.API_KEY"
+    		android:value="AIzaSyCt8-YVMXu9S7wznC_WQb4pL6p7rODtVsQ"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+           
+        </activity>
+         <activity android:name=".About" android:label="" android:screenOrientation="portrait"></activity>
+          <activity android:name=".Find" android:label="" android:screenOrientation="portrait"></activity>
+          <activity android:name=".ImageGallery" android:label="" android:screenOrientation="portrait"></activity>
+          <activity android:name=".ShowingRestaurant" android:label="" android:screenOrientation="portrait"></activity>
+          <activity android:name=".ShowingRestaurantInfo" android:label="" android:screenOrientation="portrait"></activity>
+          <activity android:name=".NearestRestaurant" android:label="" android:screenOrientation="portrait"></activity>
+          <activity android:name=".NearestRestaurantInfo" android:label="Nearest Restaurants" android:screenOrientation="portrait"></activity>
+          <activity android:name=".ShowingNearestDetail" android:label="" android:screenOrientation="portrait"></activity>
+          <activity android:name=".NearestRestaurantFood" android:label="" android:screenOrientation="portrait"></activity>
+          <activity android:name=".ShowRestaurantFood" android:label="" android:screenOrientation="portrait"></activity>
+          <activity android:name=".ShowRestaurantFoodDetail" android:label="Nearest Restaurants" android:screenOrientation="portrait"></activity>
+          <activity android:name=".ShowNearestRestaurantFoodDetail" android:label="" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".ShowRestaurantMenu" android:label="" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".ConnectMap" android:label="" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".Tracker" android:label="" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".GoogleMapRoute" android:label="" android:screenOrientation="portrait"></activity>
+    	<activity android:name=".FindRestaurant" android:label="" android:screenOrientation="portrait"></activity>
+   		<activity android:name=".DirectionRoute" android:label="" android:screenOrientation="portrait"></activity>
+   <uses-library
+	    android:name="com.google.android.maps"
+	    android:required="false"/>
+    	</application>
+	
+	
+</manifest>

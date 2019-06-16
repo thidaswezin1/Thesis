@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="114dp"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_alignTop="@+id/Button02"
+        android:background="@drawable/circle"
+        android:text="Gallery" 
+        android:textColor="#add8e6"
+        />
+	 <ViewFlipper android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+         android:flipInterval="2500" 
+         android:autoStart="true" 
+         android:id="@+id/viewflipper">
+   <ImageView
+      
+       android:layout_width="match_parent"
+       android:layout_height="210dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/find" />
+   <ImageView
+      
+       android:layout_width="match_parent"
+       android:layout_height="210dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/i1" />
+   <ImageView
+       
+       android:layout_width="match_parent"
+       android:layout_height="210dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/food1" />
+   
+   <ImageView
+       
+       android:layout_width="match_parent"
+       android:layout_height="210dp"
+       android:scaleType="fitXY"
+       android:src="@drawable/i3" />
+   
+   </ViewFlipper>
+
+   <Button
+       android:id="@+id/Button01"
+       android:layout_width="114dp"
+       android:layout_height="110dp"
+       android:layout_alignParentRight="true"
+       android:layout_alignTop="@+id/button1"
+       android:layout_marginRight="47dp"
+       android:background="@drawable/circle"
+       android:text="Nearest Restaurant By Food"
+       android:textColor="#add8e6" />
+
+   <Button
+       android:id="@+id/Button02"
+       android:layout_width="114dp"
+       android:layout_height="110dp"
+       android:layout_alignLeft="@+id/button1"
+       android:layout_alignParentBottom="true"
+       android:background="@drawable/circle"
+       android:text="All Restaurants"
+       android:layout_marginBottom="17dp"
+       android:textColor="#add8e6" />
+
+   <Button
+       android:id="@+id/button2"
+       android:layout_width="335dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/viewflipper"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="15dp"
+       android:background="#add8e6"
+       android:text="Find Restaurants"
+       
+        />
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="114dp"
+       android:layout_height="110dp"
+      
+       android:layout_below="@+id/button2"
+       android:layout_marginLeft="47dp"
+       android:layout_marginTop="21dp"
+       android:background="@drawable/circle"
+       android:text="Nearest Restaurant"
+       android:textColor="#add8e6" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+	<Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_height="365dp"
+	    android:layout_width="match_parent" 
+	    android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:paddingTop="140dp"
+        android:src="@drawable/p1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="MaharAntHtooKanThar Pagoda"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffffff" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="-This pagoda is one of the most famous pagodas in Myanmar."
+        
+        android:textColor="#ffffffff" />
+    
+    </RelativeLayout>
+    

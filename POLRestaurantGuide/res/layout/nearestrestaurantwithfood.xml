@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/mybutton1"
+        android:drawableLeft="@drawable/f0"
+        
+        android:text="Myanmar Traditional Food"
+         />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/mybutton"
+        android:drawableLeft="@drawable/f01"
+        
+        android:textColor="#ffffffff"
+        android:text="Shan Traditional Food" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/mybutton1"
+        android:drawableLeft="@drawable/f09"
+        android:text="Chinese Food" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffffff"
+        android:drawableLeft="@drawable/f02"
+        
+        android:text="Thai Food" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/mybutton"
+        android:textColor="#ffffffff"
+        android:drawableLeft="@drawable/f06"
+        
+        android:text="Hotpot and Roast" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/mybutton1"
+        android:text="Coffee and Drink"
+        android:drawableLeft="@drawable/f03"
+        
+         />
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_below="@+id/button7"
+        android:layout_marginTop="21dp"
+       android:background="@drawable/mybutton"
+       android:drawableLeft="@drawable/f07"
+        
+        android:text="Fast Food"
+        android:textColor="#ffffffff"
+         />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/mybutton1"
+        android:drawableLeft="@drawable/f08"
+        
+        android:text="Indian Food"
+        />
+
+</RelativeLayout>
+</ScrollView>

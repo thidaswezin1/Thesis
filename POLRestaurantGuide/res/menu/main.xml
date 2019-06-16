@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.polrestaurantguide.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="About"
+        android:icon="@drawable/icon1"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/myanmar"
+        android:orderInCategory="100"
+        android:title="ျမန္မာ"
+        android:icon="@drawable/myanflag"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/english"
+        android:orderInCategory="100"
+        android:title="English"
+        android:icon="@drawable/eng"
+        app:showAsAction="always" />
+	<item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="Save Photo"
+        android:icon="@drawable/save"
+        app:showAsAction="always" />
+</menu>
